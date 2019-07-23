@@ -1,0 +1,8 @@
+FROM eboraas/apache-php:latest
+
+COPY /src /var/www/html
+
+RUN rm /var/www/html/index.html \
+	&& chmod -R 777 /var/www/html/uploads \
+	&& service apache2 start
+

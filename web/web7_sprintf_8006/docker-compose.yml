@@ -1,0 +1,9 @@
+version: '2'
+services:
+  web:
+    image: php:5.6-apache
+    container_name: php_5.6_apache
+    volumes:
+      - ./src/:/var/www/html/
+    ports:
+      - "8006:80"
